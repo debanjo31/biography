@@ -1,0 +1,38 @@
+body {
+  background-color: #f9f1e6;
+  color: black;
+}
+
+h1 {
+  background-color: purple;
+  color: white;
+}
+
+p {
+  color: green;
+}
+
+nav {
+  background-color: salmon;
+}
+
+nav p {
+  color: #000;
+}
+
+nav a {
+  color: #000;
+}
+
+section p {
+  background-color: blue;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+article p {
+  background-color: yellow;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

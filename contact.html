@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
 </head>
 
 <body>
-    <h2>Contact</h2>
+    <h1>Contact</h1>
+    <nav>
+        <p>HEllo</p>
+        <a href="/homepage.html">Home Page</a>
+        <a href="/stores.html">
+            Stores
+        </a>
+        <a href="/contact.html">Contact Us</a>
+    </nav>
+    <section>
+        <p>Section 1</p>
+        <p>Section 2</p>
+        <p>Section 3</p>
+    </section>
+    <article>
+        <p>Article 1</p>
+        <p>Article 2</p>
+        <p>Article 2</p>
+    </article>
+
     <a href="/homepage.html">Home Page</a>
     <a href="/stores.html">
         Stores
@@ -44,8 +64,54 @@
         <input type="tel" placeholder="Enter your phone number" id="userPhone">
         <br>
         <br>
+        <label for="storeOption">Choose Store Product</label>
+        <!-- <select name="storeOption" id="storeOption">
+            <option value="computer">Computer</option>
+            <option value="shoe">Shoe</option>
+            <option value="phone">Phone</option>
+            <option value="jewelries">Jewelries</option>
+            <option value="book">Books</option>
+            <option value="Other" onclick="">Other</option>
+        </select> -->
+        <select>
+            <option>Option A</option>
+            <option>Option B</option>
+            <option>Option C</option>
+            <option>Option C</option>
+            <option>Option D</option>
+            <option>Option E</option>
+            <option>Option F</option>
+            <option>Option G</option>
+            <option>Option H</option>
+        </select>
+        <input type="text" hidden id="otherStore" placeholder="Enter other store">
+        <br><br>
+        <label>Gender</label>
+        Male:<input type="radio" name="gender" value="male" />
+        Female:<input type="radio" name="gender" value="female" />
+        <br><br>
+        <label>Select interest as applied</label>
+        Love to read <input type="checkbox" name="interest" value="read" />
+        Love to play <input type="checkbox" name="interest" value="play" />
+        Love to swim <input type="checkbox" name="interest" value="swim" />
+        <br><br>
+        <label for="delivery">Date of Delivery:</label>
+        <input type="date" id="delivery">
+        <br><br>
+        <label for="delivery">Week of Delivery:</label>
+        <input type="week" id="delivery">
+        <br><br>
+        <label for="delivery">Month of Delivery:</label>
+        <input type="month" id="delivery">
+        <br><br>
         <label for="">Message:</label>
         <textarea name="" id="" rows="5" cols="50" required></textarea>
+        <br><br>
+        <p>Upload Device Image</p>
+        <input type="file" accept="image/*">
+        <br> <br>
+        <p>Select Favourite</p>
+        <input type="color">
         <br><br>
         <!-- 
         block and inline
@@ -59,3 +125,6 @@
 </body>
 
 </html>
+
+
+task 3 - 5
