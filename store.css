@@ -1,4 +1,123 @@
+/* p{
+color: green;
+} */
+
+/* 
+
+COLORS IN CSS
+Color name = blue, green, red
+RGB - RED, GREEN ,BLUE
+HEX - HEXADECIMAL
+HSL - HUE, SATURATION, LIGHTNESS
+RGBA - RED, GREEN, BLUE, ALPHA
+
+*/
 body {
-  background-color: black;
+  /* background-color: black; */
+  /* color: rgb(255, 255, 255); */
+  background-color: #ddd;
+}
+
+/* 0,1,2,3,4,5,6,7,8,9,A,B,C,D,F */
+
+/* BACKGOUND
+  CTRL + / = COMMENT
+
+  backgorund-color,
+  background-image,
+  background-repeat,
+  background-attachment,
+  background-position
+*/
+
+h1 {
+  background-color: aqua;
+}
+
+/* p {
+  background-image: url("./herbert.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
   color: white;
+} */
+
+/* BORDERS
+  border-width,
+  border-style,
+  border-color,
+  border-radius
+*/
+
+/* ul {
+  border-width: 10px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 25px;
+} */
+
+button {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+
+/* 
+
+MARGINS AND PADDING
+MARGIN- SPACING OUTSIDE THE ELEMENT
+PADDING - SPACING INSIDE THE ELEMENT
+
+
+*/
+.first-p {
+  background-color: red;
+  color: white;
+  border-color: green;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 50px;
+}
+
+.second-p {
+  background-color: red;
+  color: white;
+  border-color: yellow;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.jss1a {
+  color: yellow;
+  text-align: right;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.jss1b {
+  color: blue;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jss1c {
+  color: red;
+  background-color: tomato;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 5px;
+  font-family: "IBM Plex Sans", serif;
+}
+
+.jss1d {
+  color: green;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: "Dancing Script", serif;
 }
