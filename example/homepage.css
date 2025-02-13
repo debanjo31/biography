@@ -1,0 +1,52 @@
+.header {
+  background-color: blue;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.header:hover {
+  background-color: red;
+  color: blue;
+  text-decoration: underline;
+  cursor: move;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+/* 
+:hover - when user hover:place mouse/cursor over the link
+
+*/
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+p {
+  background-color: red;
+}
+
+.contentment {
+  display: inline;
+  background-color: violet;
+}
+
+a {
+  background-color: green;
+}
+
+.olujukokoro {
+  display: block;
+  background-color: black;
+}

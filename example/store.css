@@ -121,3 +121,7 @@ PADDING - SPACING INSIDE THE ELEMENT
   font-style: italic;
   font-family: "Dancing Script", serif;
 }
+
+.fa-whatsapp {
+  color: red;
+}
