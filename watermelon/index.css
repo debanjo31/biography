@@ -1,0 +1,22 @@
+/* CSS - CASCADING STYLES SHEET */
+
+body{
+    background-color: black;
+    color: white
+}
+
+h1{
+    background-color: red;
+    color: green;
+}
+
+p{
+    font-size: 24px;
+}
+
+.jss1a{
+    background-color: violet;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
