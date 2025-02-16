@@ -11,14 +11,11 @@ html {
 body {
   background-color: #1c0081b2;
   color: #333;
-  padding-top: 120px;
+  padding-top: 100px;
+  position: relative;
 }
 
 header {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 100%;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   color: white;
   text-align: center;
@@ -36,10 +33,11 @@ header.shrink {
 }
 
 nav {
-  position: static;
-  top: 80px;
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
+
   background: #333;
   padding: 20px 0;
   z-index: 900;
