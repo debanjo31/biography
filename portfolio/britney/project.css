@@ -1,259 +1,261 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #1c0081b2;
-    color: #333;
-    padding-top: 120px;
+  background-color: #1c0081b2;
+  color: #333;
+  padding-top: 120px;
 }
 
 header {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    font-weight: bold;
-    z-index: 1000;
-    transition: all 0.3s ease-in-out;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
 header.shrink {
-    padding: 10px;
-    font-size: 1.2em;
-    background: linear-gradient(135deg, #5a7be6, #9455d3);
+  padding: 10px;
+  font-size: 1.2em;
+  background: linear-gradient(135deg, #5a7be6, #9455d3);
 }
 
 nav {
-    position: static;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background: #333;
-    padding: 20px 0;
-    z-index: 900;
-    transition: all 0.3s ease-in-out;
+  position: static;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 20px 0;
+  z-index: 900;
+  transition: all 0.3s ease-in-out;
 }
 
 nav.shrink {
-    top: 70px;
-    padding: 10px 0;
-    background: #222;
+  top: 70px;
+  padding: 10px 0;
+  background: #222;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 40px; 
-    padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+  padding: 0 20px;
 }
 
 nav ul li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3em; 
-    padding: 10px 15px;
-    border-radius: 5px; 
-    transition: all 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    background-color: rgba(167, 119, 227, 0.6);
-    color: #a777e3;
+  background-color: rgba(167, 119, 227, 0.6);
+  color: #a777e3;
 }
 
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 nav ul li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
-
 main {
-    position : relative;
-    padding: 40px;
-    text-align: center;
-    z-index: 800;
+  position: relative;
+  padding: 40px;
+  text-align: center;
+  z-index: 800;
 }
 
 #cta {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 800px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 .cta-button {
-    display: inline-block;
-    background: #6e8efb;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: background 0.3s;
+  display: inline-block;
+  background: #6e8efb;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background 0.3s;
 }
 
 .cta-button:hover {
-    background: #a777e3;
+  background: #a777e3;
 }
 
-
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .project-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+  background: white;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
 .project-card img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* APPLY STYLING TO ELEMENT THAT HAS CLASS OF SPACING AND ARE CHILDREN OF ELEMENT OF .PROJECT-CARD */
+
+.project-card .spacing {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project-card h3 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .tags {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .tags span {
-    display: inline-block;
-    background: #6e8efb;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-right: 5px;
-    font-size: 0.9em;
+  display: inline-block;
+  background: #6e8efb;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 0.9em;
 }
 
-
 #about {
-    top: 20px;
-    background: url('download.jpeg') center/cover no-repeat;
-    text-align: center;
-    padding: 100px 50px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    position: relative;
+  top: 20px;
+  background: url("download.jpeg") center/cover no-repeat;
+  text-align: center;
+  padding: 100px 50px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 #about p {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
-    max-width: 80%;
-    color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  max-width: 80%;
+  color: white;
 }
 
 #about h2 {
-    color: rgb(159, 4, 248);
-    font-size: 2em;
-    margin-bottom: 20px;
+  color: rgb(159, 4, 248);
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-
 #contact {
-    top: 20px;
-    background: url('web.jpeg') center/cover no-repeat;
-    text-align: center;
-    padding: 80px 50px;
-    border-radius: 15px;
-    position: relative;
+  top: 20px;
+  background: url("web.jpeg") center/cover no-repeat;
+  text-align: center;
+  padding: 80px 50px;
+  border-radius: 15px;
+  position: relative;
 }
 
 #contact form {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 30px;
-    display: inline-block;
-    border-radius: 10px;
-    max-width: 500px;
-    width: 100%;
-    color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  display: inline-block;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  color: white;
 }
 
 #contact h2 {
-    color: rgb(159, 4, 248);
-    font-size: 2em;
-    margin-bottom: 20px;
+  color: rgb(159, 4, 248);
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 #contact p {
-    color:#8c00ff;
-    margin: bottom 20px; ;
+  color: #8c00ff;
+  margin: bottom 20px;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: none;
-    background: rgba(255, 255, 255, 0.8);
-    color: #000;
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
 }
 
 button {
-    background-color: #ff007f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  background-color: #ff007f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-    background-color: #ff4da6;
+  background-color: #ff4da6;
 }
-
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
-
-
-
