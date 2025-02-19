@@ -108,3 +108,53 @@ button:hover {
   width: 300px;
   background-color: green;
 }
+
+.services {
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+.services-header {
+  font-size: 48px;
+  text-align: center;
+  color: rgb(4, 94, 94);
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.service {
+  background-color: #eee;
+  padding-bottom: 20px;
+}
+
+.service img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.service-text {
+  padding: 10px;
+}
+
+.service-text h2 {
+  font-size: 24px;
+  color: rgb(4, 94, 94);
+  margin-bottom: 20px;
+}
+
+.service-text p {
+  font-size: 18px;
+  color: rgb(4, 94, 94);
+}
+
+/* GITHUB AND GRID */
