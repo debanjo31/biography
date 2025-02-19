@@ -6,6 +6,40 @@
 body {
   padding: 0;
   margin: 0;
+  position: relative;
+}
+
+nav {
+  height: 48px;
+  /* opacity: 0.1; */
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .nav-links a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 .hero {
@@ -15,7 +49,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  padding-top: 80px;
+  padding-top: 128px;
 }
 
 .hero-p {
@@ -51,4 +85,26 @@ button:hover {
   background-color: black;
   color: white;
   font-size: 36px;
+}
+
+.akoka {
+  display: flex;
+  flex-direction: row;
+}
+.akoka .jss1 {
+  height: 300px;
+  width: 500px;
+  background-color: red;
+}
+
+.akoka .jss2 {
+  height: 250px;
+  width: 400px;
+  background-color: blue;
+}
+
+.akoka .jss3 {
+  height: 200px;
+  width: 300px;
+  background-color: green;
 }
