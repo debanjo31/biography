@@ -7,7 +7,20 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
+  background-color: white;
 }
+
+/* @media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+  }
+} */
 
 nav {
   height: 48px;
@@ -41,6 +54,13 @@ nav .nav-links a:hover {
   text-decoration: underline;
   text-decoration-color: white;
 }
+
+.bar-icon {
+  display: none;
+}
+
+/* MIN-WIDTH - WHEN THE SCREEN IS WIDER THAN THE PX WE SET, THE STYLES SHOULD */
+/* MAX - WIDTH WHEN THE SCREEN IS LESSER THAN THE PX WE SET THE style should be applied  */
 
 .hero {
   min-height: 100vh;
@@ -157,4 +177,41 @@ button:hover {
   color: rgb(4, 94, 94);
 }
 
+h1 {
+  font-size: 20px;
+}
+
 /* GITHUB AND GRID */
+
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+  .bar-icon {
+    display: block;
+    padding-right: 40px;
+  }
+  nav {
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  .hero-header {
+    font-size: 36px;
+    width: 100%;
+  }
+  .hero-p {
+    font-size: 18px;
+    width: 100%;
+  }
+  button {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
